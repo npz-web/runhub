@@ -7,25 +7,26 @@ h1 {
 body {
     background-color: #FF6666;
 }
+/* home pg */
 img {
     max-width: 344px;
     max-height: 232px;
     border-radius: 5%;
 }
-/* Image #2! */
+/* Image #2! (home) */
 img {
     max-width: 215px;
     max-height: 230px;
     border-radius: 5%;
 }
-/* Image #3! */
+/* Image #3! (home) */
 img {
 max-width: 258px;
 max-height: 164px;
 border-radius: 5%;
 
 }
-/* Image #4! */
+/* Image #4! (home) */
 img {
     max-width: 287px;
     max-height: 164px;
