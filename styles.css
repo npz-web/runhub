@@ -2,6 +2,10 @@
 h1 {
     font-family: Monoton;
     font-size: 100px;
+    color: #ffffff;
+}
+body {
+    background-color: #FF6666;
 }
 img {
     max-width: 344px;
@@ -30,7 +34,9 @@ img {
 p {
     text-align: left;
     font-family: Josefin Sans;
+    color: #ffffff;
 }
 nav {
     font-family: Josefin Sans;
+    color: #ffffff;
 }
