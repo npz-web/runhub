@@ -10,7 +10,10 @@ img {
 /* Image #3! */
 img {
 max-width: 200px;
-
+}
+/* Image #4! */
+img {
+    max-width: 500px;
 }
 p {
     text-align: left;
