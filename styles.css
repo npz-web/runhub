@@ -26,43 +26,50 @@ img {
     max-width: 344px;
     max-height: 232px;
     border-radius: 5%;
+    
+}
+.img1 {
     position: absolute;
     top: 23px;
     right: 903px;
     bottom: 577px;
     left: 33px;
-    
 }
 /* Image #2! (home) */
 img {
     max-width: 215px;
     max-height: 230px;
     border-radius: 5%;
+    
+}
+.img2 {
     position: absolute;
     top: 23px;
     right: 677px;
     bottom: 579px;
     left: 388px;
-    padding-left: 265px;
-    
+
 }
 /* Image #3! (home) */
 img {
 max-width: 258px;
 max-height: 164px;
 border-radius: 5%;
-position: absolute;
-top: 264px;
-right: 981px;
-bottom: 404px;
-left: 41px;
-
+}
+.img3 {
+    position: absolute;
+    top: 264px;
+    right: 981px;
+    bottom: 404px;
+    left: 41px;
 }
 /* Image #4! (home) */
 img {
     max-width: 287px;
     max-height: 164px;
     border-radius: 5%;
+}
+.img4 {
     position: absolute;
     top: 264px;
     right: 689px;
