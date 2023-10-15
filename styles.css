@@ -3,6 +3,10 @@ h1 {
     font-family: Monoton;
     font-size: 100px;
     color: #ffffff;
+    padding-top: 301px;
+    padding-right: 82px;
+    padding-bottom: 460px;
+    padding-left: 716px;
 }
 body {
     background-color: #FF6666;
@@ -12,12 +16,14 @@ img {
     max-width: 344px;
     max-height: 232px;
     border-radius: 5%;
+    
 }
 /* Image #2! (home) */
 img {
     max-width: 215px;
     max-height: 230px;
     border-radius: 5%;
+    
 }
 /* Image #3! (home) */
 img {
