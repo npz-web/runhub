@@ -5,8 +5,18 @@ h1 {
     color: #ffffff;
     padding-top: 301px;
     padding-right: 82px;
-    padding-bottom: 460px;
+    padding-bottom: 15px;
     padding-left: 716px;
+    margin: 0px;
+}
+h2 {
+    font-family: Josefin Sans;
+    color: #ffffff;
+    padding-top: 0px;
+    padding-right: 117px;
+    padding-bottom: 0px;
+    padding-left: 751px;
+    margin: 0px;
 }
 body {
     background-color: #FF6666;
@@ -16,6 +26,11 @@ img {
     max-width: 344px;
     max-height: 232px;
     border-radius: 5%;
+    position: absolute;
+    top: 23px;
+    right: 903px;
+    bottom: 577px;
+    left: 33px;
     
 }
 /* Image #2! (home) */
@@ -23,6 +38,12 @@ img {
     max-width: 215px;
     max-height: 230px;
     border-radius: 5%;
+    position: absolute;
+    top: 23px;
+    right: 677px;
+    bottom: 579px;
+    left: 388px;
+    padding-left: 265px;
     
 }
 /* Image #3! (home) */
@@ -30,6 +51,11 @@ img {
 max-width: 258px;
 max-height: 164px;
 border-radius: 5%;
+position: absolute;
+top: 264px;
+right: 981px;
+bottom: 404px;
+left: 41px;
 
 }
 /* Image #4! (home) */
@@ -37,6 +63,11 @@ img {
     max-width: 287px;
     max-height: 164px;
     border-radius: 5%;
+    position: absolute;
+    top: 264px;
+    right: 689px;
+    bottom: 404px;
+    left: 304px;
 }
 p {
     text-align: left;
