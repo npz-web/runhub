@@ -47,7 +47,7 @@ img {
     top: 23px;
     right: 677px;
     bottom: 579px;
-    left: 388px;
+    left: 325px;
 
 }
 /* Image #3! (home) */
@@ -58,10 +58,10 @@ border-radius: 5%;
 }
 .img3 {
     position: absolute;
-    top: 264px;
+    top: 190px;
     right: 981px;
     bottom: 404px;
-    left: 41px;
+    left: 33px;
 }
 /* Image #4! (home) */
 img {
@@ -71,15 +71,22 @@ img {
 }
 .img4 {
     position: absolute;
-    top: 264px;
+    top: 190px;
     right: 689px;
     bottom: 404px;
-    left: 304px;
+    left: 285px;
 }
 p {
-    text-align: left;
+    text-align: center;
     font-family: Josefin Sans;
+    font-size: 24px;
     color: #ffffff;
+    width: 475px;  
+}
+.intro {
+    position: absolute;
+    top: 425px;
+    left: 66px;
 }
 nav {
     font-family: Josefin Sans;
