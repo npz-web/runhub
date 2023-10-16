@@ -92,3 +92,18 @@ nav {
     font-family: Josefin Sans;
     color: #ffffff;
 }
+footer {
+}
+.copy {
+    position: absolute;
+    top: 670px;
+}
+.square {
+    width: 616px;
+    height: 800px;
+    background: #DB4B4B;;
+    position: absolute;
+    top: 10px;
+    z-index: -1;
+    border-radius: 5%;
+  }
