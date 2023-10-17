@@ -3,20 +3,17 @@ h1 {
     font-family: Monoton;
     font-size: 100px;
     color: #ffffff;
-    padding-top: 301px;
-    padding-right: 82px;
-    padding-bottom: 15px;
-    padding-left: 716px;
-    margin: 0px;
+    position: absolute;
+    top: 220px;
+    left: 780px;
 }
+/* tagline */
 h2 {
     font-family: Josefin Sans;
     color: #ffffff;
-    padding-top: 0px;
-    padding-right: 117px;
-    padding-bottom: 0px;
-    padding-left: 751px;
-    margin: 0px;
+    position: absolute;
+    top: 400px;
+    left: 820px;
 }
 body {
     background-color: #FF6666;
@@ -85,28 +82,65 @@ p {
 }
 .intro {
     position: absolute;
-    top: 425px;
+    top: 380px;
     left: 66px;
 }
 nav {
     font-family: Josefin Sans;
+    font-size: 30px;
     color: #ffffff;
+    position: absolute;
+    top: 620px;
+    left: 100px;
+    word-spacing: 50px;
 }
 footer {
 }
 .copy {
     position: absolute;
-    top: 670px;
+    top: 720px;
 }
 .square {
     width: 616px;
     height: 800px;
-    background: #DB4B4B;;
+    background: #DB4B4B;
     position: absolute;
     top: 10px;
     z-index: -1;
     border-radius: 5%;
   }
-  .square2 {
-    
+  /* Outside left Line */
+  .line1 {
+    width: 15px;
+    height: 780px;
+    background: #ffffff;
+    position: absolute;
+    top: 20px;
+    right: 780px;
+  }
+  /* Outside right line */
+  .line2 {
+    width: 15px;
+    height: 780px;
+    background: #ffffff;
+    position: absolute;
+    top: 20px;
+    right: 20px; 
+  }
+  /* Inside left Line */
+  .line3 {
+    width: 7px;
+    height: 750px;
+    background: #ffffff;
+    position: absolute; 
+    top: 30px;
+    right: 765px;
+  }
+  .line4 {
+    width: 7px;
+    height: 750px;
+    background: #ffffff;
+    position: absolute;
+    top: 30px;
+    right: 45px; 
   }
