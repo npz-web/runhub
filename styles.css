@@ -9,9 +9,11 @@ h1 {
 /* tagline */
 h2 {
     font-family: Josefin Sans;
+    font-size: 70px;
     color: #ffffff;
     position: relative;
     bottom: 50px;
+    margin: 50px;
 }
 body {
     background-color: #FF6666;
