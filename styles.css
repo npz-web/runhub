@@ -1,9 +1,10 @@
 /* your styles will go here!! */
 h1 {
     font-family: Monoton;
-    font-size: 65px;
+    font-size: 120px;
     color: #ffffff;
     position: static;
+    margin: 50px;
 }
 /* tagline */
 h2 {
