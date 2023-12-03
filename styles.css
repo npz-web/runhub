@@ -39,8 +39,10 @@ p {
     position: relative;
     left: 2153px;  
 }
-nav {
-
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 nav a {
     font-family: Josefin Sans;
