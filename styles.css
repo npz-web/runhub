@@ -11,14 +11,12 @@ h2 {
     font-family: Josefin Sans;
     font-size: 70px;
     color: #ffffff;
-    position: relative;
-    bottom: 50px;
     margin: 50px;
 }
 body {
     background-color: #FF6666;
 }
-/* home pg */
+/* home pg imgs */
 .img1 {
     border-radius: 50%;
 }
@@ -32,7 +30,7 @@ body {
     width: 50%;
 }
 .img 4 {
-  
+   
 }
 .flexbox1 {
     display: flex;
