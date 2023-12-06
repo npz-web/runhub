@@ -1,70 +1,112 @@
 /* your styles will go here!! */
 h1 {
     font-family: Monoton;
-    font-size: 120px;
+    font-size: 48px;
     color: #ffffff;
     position: static;
     margin: 50px;
 }
-/* tagline */
+
 h2 {
     font-family: Josefin Sans;
-    font-size: 70px;
+    font-size: 24px;
     color: #ffffff;
     margin: 50px;
 }
 body {
     background-color: #FF6666;
 }
-/* home pg imgs */
-.img1 {
-    border-radius: 50%;
-}
-.img2 {
-    border-radius: 17px;
-    max-height: 200px;
-    height: 70%;
-}
-.img3 {
-    max-width: 1060px;
-    width: 50%;
-}
-.img 4 {
-   
-}
-.flexbox1 {
+
+.flex {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: flex-start;
+    justify-content: center;
 }
-.flexbox2 {
-    display: flex;
-    flex-direction: row;
+
+.img {
+    height: auto;
+    width: 20%;
 }
-p {
+
+
+.square p {
     text-align: center;
     font-family: Josefin Sans;
     font-size: 24px;
     color: #ffffff;
-    width: 475px;
+    max-width: 475px;
+    min-width: 250px;
 }
-main {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+header a {
+    text-decoration: none;
 }
 nav a {
     font-family: Josefin Sans;
     font-size: 30px;
     color: #ffffff;
     text-decoration: none;
-    font-size: 100px;
     margin: 50px;   
 }
-footer {
-}
+
 .square {
-    width: 616px;
-    height: 800px;
     background: #DB4B4B;
+    padding: 100px 50px;
+    border-radius: 20px;
   }
+
+  /*home*/
+
+  #image-grid {
+    width: 100%;
+  }
+
+  .home-wrap {
+    flex-wrap: wrap;
+    
+}
+
+.lines {
+    padding: 50px;
+    border-top: 10px double #ffffff;
+    border-bottom: 10px double #ffffff;
+    border-right: 0;
+    border-left: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+ /* media queries */
+
+ @media (min-width: 900px) {
+    .home-wrap {
+        flex-wrap: nowrap;
+        align-items: stretch;
+    }
+    .lines {
+        border-top: 0;
+        border-bottom: 0;
+        border-right: 10px double #ffffff;
+        border-left: 10px double #ffffff;
+    }
+
+    main {
+        padding: 0px 50px;
+    }
+
+ }
+
  
