@@ -62,7 +62,14 @@ nav a {
     padding: 100px 50px;
     border-radius: 20px;
   }
+.columns {
+display: flex;
+gap: 35px;
+justify-content: center;
+}
+.col {
 
+}
   /*home*/
 
   #image-grid {
