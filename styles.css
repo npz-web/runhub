@@ -91,7 +91,10 @@ justify-content: center;
     align-items: center;
 }
 
-
+/*News*/
+.Newsimg {
+    max-width: 70%;
+}
 
 
 
