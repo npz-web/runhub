@@ -61,6 +61,8 @@ nav a {
     background: #DB4B4B;
     padding: 100px 50px;
     border-radius: 20px;
+    font-family: Josefin Sans;
+    color: #ffffff;
   }
 .columns {
 display: flex;
