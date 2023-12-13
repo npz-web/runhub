@@ -6,7 +6,9 @@
         <meta name="description" content="A website about running geared towards college athletes">
         <meta name="author" content="Jazmyne Daily-Simpson">
         <link rel="icon" type="image/png" href="favicon.ico">
+        <link rel="stylesheet" href="menu.css">
         <link rel="stylesheet" href="styles.css">
+        <script src="menu.js" defer></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,28 +17,41 @@
 <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Space+Mono&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <header class="main-nav-container">
             <a href="index.html"><h1>RunHub</h1></a>
-            <nav>
-                <a href="News.html">News</a>
-                <a href="Workouts.html">Workouts</a>
-                <a href="Stretches.html">Stretches</a>
-            </nav>
+            <div class="right">
+                <button class="btn-toggle-menu">
+                    <svg viewBox="0 0 100 60" width="30" height="30">
+                        <rect width="100" height="10"></rect>
+                        <rect y="30" width="100" height="10"></rect>
+                        <rect y="60" width="100" height="10"></rect>
+                    </svg>
+                </button>    
+                </div>
+                <nav class="main-nav main-nav-hidden">
+                    <a href="News.html">News</a>
+                    <a href="Workouts.html">Workouts</a>
+                    <a href="Stretches.html">Stretches</a>
+                </nav>
+        
         </header>
         <main>
             <h2>Workouts</h2>
-            <h3 class="square">12x300m
+            <div class="square">
+                <h3>12x300m</h3>
                 <p class="italic">300 meter intervals, jog/walk 100 meters for rest </p>
                 <p>This workout is meant to help build up speed for distance runners. Whether you are training for a 5k, 10k, or something longer, these 300 will help you simulate that middle of the race speed.</p>
-            </h3>
-            <h4 class="square">Ladder Workout
+            </div>
+            <div class="square">
+            <h3>Ladder Workout</h3> 
                 <p class="italic">1600m, 1200m, 800m, 400m, 800m, 1200m, 1600m, 60s rest in between </p>
                 <p>Ladder workouts will help you focus on the turnover you need at the end of a race while also building up your strength. The quick decrease in distance is what keeps this hard workout engaging for all runners.</p>
-            </h4>
-            <h5 class="square">Mile Repeats
+            </div>
+            <div class="square">
+                <h3>Mile Repeats</h3>
                 <p class="italic">3x1600m</p>
                 <p>This classic workout can be done on the track or on the road, and is meant to help build up the endurance needed for long distance races. Its a good beginning of the season workout to get those conditioning miles in!</p>
-            </h5>
+            </div>
         </main>
         <div class="copy">
         <footer>

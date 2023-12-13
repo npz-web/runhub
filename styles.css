@@ -5,16 +5,20 @@ h1 {
     color: #ffffff;
     position: static;
     margin: 50px;
+    font-weight: 200;
 }
 
 h2 {
     font-family: Josefin Sans;
-    font-size: 24px;
+    font-size: 40px;
     color: #ffffff;
     margin: 50px;
+    text-transform: uppercase;
+    font-style: italic;
 }
 body {
     background-color: #FF6666;
+    font-weight: 300;
 }
 
 .flex {
@@ -57,21 +61,39 @@ nav a {
     margin: 50px;   
 }
 
+main {
+    padding: 130px 20px 0;
+}
+
 .square {
     background: #DB4B4B;
-    padding: 100px 50px;
+    padding: 30px;
+    margin: 20px 0;
     border-radius: 20px;
     font-family: Josefin Sans;
     color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
-.columns {
-display: flex;
-gap: 35px;
-justify-content: center;
-}
-.col {
 
-}
+ .square h3 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: 500;
+ } 
+    .columns {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    .col iframe {
+        width: 70vw;
+        height:40vh;
+    }
   /*home*/
 
   #image-grid {
@@ -109,7 +131,7 @@ justify-content: center;
 
  /* media queries */
 
- @media (min-width: 900px) {
+ @media (min-width: 1050px) {
     .home-wrap {
         flex-wrap: nowrap;
         align-items: stretch;
@@ -122,8 +144,16 @@ justify-content: center;
     }
 
     main {
-        padding: 0px 50px;
+        padding: 130px 50px 0;
     }
+
+    .columns {
+        flex-direction: row;
+        }
+    
+        .col iframe {
+            width: auto;
+        }
 
  }
 
