@@ -1,10 +1,17 @@
-/* your styles will go here!! */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
 h1 {
     font-family: Monoton;
     font-size: 48px;
     color: #ffffff;
     position: static;
-    margin: 50px;
+    margin: 30px;
     font-weight: 200;
 }
 
@@ -36,14 +43,6 @@ body {
 }
 
 
-.square p {
-    text-align: center;
-    font-family: Josefin Sans;
-    font-size: 24px;
-    color: #ffffff;
-    max-width: 475px;
-    min-width: 250px;
-}
 header {
     display: flex;
     justify-content: space-between;
@@ -83,6 +82,17 @@ main {
     font-size: 24px;
     font-weight: 500;
  } 
+
+ .square p {
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    max-width: 475px;
+    min-width: 250px;
+}
+
     .columns {
     display: flex;
     gap: 35px;
@@ -90,9 +100,18 @@ main {
     flex-direction: column;
     }
 
+    .col {
+        display: flex;
+        flex-direction: column;
+    }
+
     .col iframe {
         width: 70vw;
-        height:40vh;
+        height:20vh;
+    }
+
+    .col img {
+        width: 70vw;
     }
   /*home*/
 
@@ -116,12 +135,18 @@ main {
 }
 
 /*News*/
-.Newsimg {
-    max-width: 70%;
+
+
+.news .square {
+    width: 70vw;
 }
 
 .italic {
     font-style: italic;
+}
+
+li {
+    font-size: 20px;
 }
 
 /*Workouts*/
@@ -144,7 +169,7 @@ main {
     }
 
     main {
-        padding: 130px 50px 0;
+        padding: 70px 50px 0;
     }
 
     .columns {
@@ -152,7 +177,12 @@ main {
         }
     
         .col iframe {
-            width: auto;
+            width: 40vw;
+            height: 27vw;
+        }
+
+        .col img {
+            width: 30vw;
         }
 
  }
