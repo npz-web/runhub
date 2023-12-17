@@ -22,6 +22,7 @@ h2 {
     margin: 50px;
     text-transform: uppercase;
     font-style: italic;
+    text-align: center;
 }
 body {
     background-color: #FF6666;
@@ -79,8 +80,8 @@ main {
 
  .square h3 {
     margin-top: 0;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 0;
  } 
 
  .square p {
@@ -91,6 +92,7 @@ main {
     color: #ffffff;
     max-width: 475px;
     min-width: 250px;
+    margin-bottom: -10px;
 }
 
     .columns {
@@ -113,6 +115,7 @@ main {
     .col img {
         width: 70vw;
         border-radius: 5%;
+        margin-bottom: 15px;
     }
   /*home*/
 
@@ -135,6 +138,14 @@ main {
     align-items: center;
 }
 
+.slogan {
+    font-size: 25px;
+    text-align: left;
+    margin-left: 0px;
+}
+
+
+
 /*News*/
 
 .news .square {
@@ -151,7 +162,20 @@ li {
 
 /*Workouts*/
 
+/*Stretches*/
 
+a:-webkit-any-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+    transition: underline 3s;
+    
+}
+
+.link:hover {
+    text-decoration: underline;
+    
+}
 
 
  /* media queries */
