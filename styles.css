@@ -117,6 +117,12 @@ main {
         border-radius: 5%;
         margin-bottom: 15px;
     }
+
+    footer {
+        font-family: Josefin Sans;
+        color:#ffffff;
+    }
+
   /*home*/
 
   #image-grid {
