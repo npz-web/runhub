@@ -112,6 +112,7 @@ main {
 
     .col img {
         width: 70vw;
+        border-radius: 5%;
     }
   /*home*/
 
@@ -135,7 +136,6 @@ main {
 }
 
 /*News*/
-
 
 .news .square {
     width: 70vw;
